@@ -1,0 +1,14 @@
+{
+  "name": "Song Downloader",
+  "version": "4.0",
+  "author": "Omar-mk06",
+  "description": "Download any Spotify song as an MP3 file. Adds a player-bar button and a right-click context-menu entry. Uses a local spotdl server (recommended) or a web API fallback.",
+  "homepage": "https://github.com/Omar-mk06/song-downloader",
+  "extensions": [
+    {
+      "name": "Song Downloader",
+      "file": "downloadSong.js",
+      "description": "Download the currently playing (or right-clicked) Spotify track as an MP3."
+    }
+  ]
+}
